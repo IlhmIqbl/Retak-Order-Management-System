@@ -39,7 +39,8 @@ Route::middleware([
     // 3. Order Management (Livewire)
     Route::get('/orders/create', CreateOrder::class)->name('orders.create');
     Route::get('/production', \App\Livewire\ProductionStatus::class)->name('production.index');
-
+    
+    Route::get('/analytics', \App\Livewire\Analytic::class)->name('analytics.index');
     // 4. Calendar API Routes (Backend for Dashboard Calendar)
     Route::get('/events', [EventController::class, 'getEvents']);
     Route::post('/events', [EventController::class, 'store']);
