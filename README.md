@@ -1,4 +1,4 @@
-# 👕 Retak Apparel Order Management System (OMS)
+# 👕 Retak Apparel 
 
 A web-based Order Management System (OMS) developed using Laravel to streamline operations for custom clothing businesses.
 
